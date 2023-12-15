@@ -4,6 +4,7 @@ import { Footer, Blog, Possibility, Features, WhatGPT3, Header } from './contain
 import { CTA, Brand, Navbar } from './components';
 
 import './App.css';
+import QuiseGame from './components/QuiseGame/QuiseGame';
 
 const App = () => (
   <div className="App">
@@ -12,6 +13,7 @@ const App = () => (
       <Header />
     </div>
     <Brand />
+    <QuiseGame></QuiseGame>
     <WhatGPT3 />
     <Features />
     <Possibility />

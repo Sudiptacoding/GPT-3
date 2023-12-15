@@ -1,0 +1,61 @@
+/* src/App.css */
+.app {
+    text-align: center;
+    margin: 20px;
+}
+
+.question-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    width: 76%;
+    margin: 0px auto;
+}
+
+.options-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.score {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.result-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.result-container button {
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.result-container button:hover {
+    background-color: #0056b3;
+}
+
+.hading {
+    padding-bottom: 10px;
+}
